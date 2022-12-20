@@ -9,17 +9,20 @@ This code is for a robot that is controlled by pulse width modulation (PWM) sign
 
 The robot's base tilts and input channels are defined as instances of the `BTS` and `FS_I6` classes, respectively. The `BTS` class represents a base tilt and contains variables for the PWM pins, enable pins, and current speed. The `FS_I6` class represents the six input channels and contains variables for the channel pins and current values.
 
+
+
 ## Hardware used
-Micro controller - Arduino Mega
-Motor Driver - BTS 7960 
-Controller - Fly sky i6
-Motors - Center shaft motor (150 RPM)
-Acrylic sheet of 2mm used via laser cutting for making structure/chasis of bot 
-Wheels - 3.5cm Radius
-Servo - 1. 360 degree 9kg/cm 
-        2. 180 degree - 18kg/cm
-Battery - Li-po 2200 Mah
-Jumper wires
+
+1. Micro controller - Arduino Mega
+2. Motor Driver - BTS 7960 
+3. Controller - Fly sky i6
+4. Motors - Center shaft motor (150 RPM)
+5. Acrylic sheet of 2mm used via laser cutting for making structure/chasis of bot 
+6. Wheels - 3.5cm Radius
+7. Servo - a. 360 degree 9kg/cm 
+                 b. 180 degree - 18kg/cm
+8. Battery - Li-po 2200 Mah
+9. Jumper wires
 
 
 In the `setup()` function, the input channels are initialized and the serial communication is started.
